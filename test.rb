@@ -1,5 +1,9 @@
-puts 'Hi, what is your favorite number?'
+puts "Hello, what\'s your name?"
+name = gets.chomp
+puts "Hello " + name + "."
 
-fav = gets + 1
-
-puts 'Your number is ' + better + '?'
+if (name == 'Bryan' or name == 'Mary')
+	puts 'What a lovely name!'
+else
+	puts 'Nice to meet you!'
+end

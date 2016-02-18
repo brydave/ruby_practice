@@ -1,0 +1,299 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"intro",
+				"intro-content"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "project",
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"projce",
+				"Project: Save As"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/brydave/Documents/dev/ruby_practice"
+	],
+	"file_history":
+	[
+		"/Users/brydave/Documents/dev/ofc_prototype/gulpfile.coffee",
+		"/Users/brydave/Documents/dev/ofc_prototype/bower.json",
+		"/Users/brydave/Documents/dev/ofc_prototype/package.json",
+		"/Users/brydave/Documents/dev/ofc_prototype/gulp/coffee.coffee",
+		"/Users/brydave/Documents/dev/practice/test.js",
+		"/Users/brydave/Documents/dev/10x10/src/styles/_typography.scss",
+		"/Users/brydave/Documents/dev/bryanmarriesmary/src/index.jade",
+		"/Users/brydave/Documents/dev/10x10/src/index.jade",
+		"/Users/brydave/Documents/dev/weddingsite/.gitignore",
+		"/Users/brydave/Documents/dev/weddingsite/_site/index.html",
+		"/Users/brydave/Documents/dev/weddingsite/_layouts/page.html",
+		"/Users/brydave/Documents/dev/weddingsite/_sass/_base.scss",
+		"/Users/brydave/Documents/dev/weddingsite/_config.yml",
+		"/Users/brydave/Documents/dev/google-homepage/stylesheet.css",
+		"/Users/brydave/Documents/dev/google-homepage/index.html",
+		"/Users/brydave/Documents/dev/railsbridge/test_app/app/assets/javascripts/application.js",
+		"/Users/brydave/Documents/dev/google-homepage/README.md",
+		"/Users/brydave/Downloads/Code/aigajax-inline-2.html",
+		"/Users/brydave/Documents/dev/_Reference_Stached/gulp-reference.js",
+		"/Users/brydave/Documents/dev/bryanmarriesmary/README.md",
+		"/Users/brydave/Documents/dev/bryanmarriesmary/gulp.js",
+		"/Users/brydave/Documents/dev/bryanmarriesmary/bower.json",
+		"/Users/brydave/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/brydave/Downloads/aigajax-inline.html",
+		"/Users/brydave/Documents/dev/portfolio/gulpfile.js",
+		"/Users/brydave/Documents/dev/10x10/gulpfile.js",
+		"/Users/brydave/Documents/dev/dinnerplate/src/styles/_type.scss",
+		"/Users/brydave/Documents/dev/dinnerplate/src/styles/_canvas.scss",
+		"/Users/brydave/Documents/dev/dinnerplate/src/styles/app.scss",
+		"/Users/brydave/Documents/dev/dinnerplate/src/index.jade",
+		"/Users/brydave/Documents/dev/dinnerplate/src/styles/_bits.scss",
+		"/Users/brydave/Documents/dev/dinnerplate/src/styles/_demo.scss",
+		"/Users/brydave/Documents/dev/dinnerplate/src/styles/_component.scss",
+		"/Users/brydave/Documents/dev/dinnerplate/src/styles/_mixins.scss",
+		"/Users/brydave/Documents/dev/dinnerplate/src/styles/_images.scss",
+		"/Users/brydave/Documents/dev/dinnerplate/src/styles/_forms.scss",
+		"/Users/brydave/Documents/dev/dinnerplate/src/scripts/splitlayout.js",
+		"/Users/brydave/Documents/dev/dinnerplate/src/scripts/app.coffee",
+		"/Users/brydave/Documents/dev/dinnerplate/dist/index.html",
+		"/Users/brydave/Documents/dev/dinnerplate/gulpfile.js",
+		"/Users/brydave/Documents/dev/dinnerplate/server.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/brydave/Documents/dev/ofc_prototype/src",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#leaveCurrentFlow",
+			"@leaveCurrentFlow",
+			"dateformat",
+			"postcss",
+			"150px",
+			";",
+			"</span>",
+			"<span>",
+			"\"icons ",
+			"<span>",
+			"span",
+			"<img src=\"",
+			"img src",
+			"}\n",
+			".html",
+			"index.html",
+			"jade",
+			"1337"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "rubypractice.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"close-",
+				"src/canvas_components/close-account/close-account.coffee"
+			],
+			[
+				"account-se",
+				"src/canvas_components/close-account/account-selected.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
