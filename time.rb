@@ -1,16 +1,10 @@
-# birth = Time.mktime(1984, 2, 25, 10)
-
-# age = birth + 1000000000000
-
-# puts age.to_s
-
-
-# Happy Birthday! Ask what year a person was born in, then the month, then the day. Figure out how old they are and give them a big SPANK! for each birthday they have had.
+# Happy Birthday! Ask what year a person was born in, then the month, then the day. Figure out how old they are and give them a big PUNCH! One for each birthday they have had.
 
 def howOld  
-  
+  # get a list of the months
   englishMonth = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
 
+  # use date for time keeping
   require 'date'
   now = Date.today.year
   oldestPerson = now - 120
@@ -18,6 +12,7 @@ def howOld
   puts "What year were you born?"
   year = 0
 
+  #loop through getting the year - wait for it to be correct
   while year == 0
     year = gets.chomp
 
@@ -45,6 +40,7 @@ def howOld
   puts "What month were you born?"
   month = 0
 
+  #loop through getting the month - wait for it to be correct
   while month == 0
     month = gets.downcase.chomp
 
@@ -65,6 +61,7 @@ def howOld
   puts "What day were you born?"
   day = 0
 
+  #loop through getting the day - wait for it to be correct
   while day == 0
     day = gets.chomp
 
@@ -81,14 +78,19 @@ def howOld
     end
   end
 
+  # Add birthday into time format
   birth = Time.mktime(year, month, day)
   puts birth
 
+  # Calculate age
   date  = Time.new
   age   = date - birth
 
+  # Calculate punches
   bdays = age / (525600 * 60)
   sbday = bdays.floor
+  
+  # Get punched
   puts "Well, you get #{sbday.to_s} punches!"
   
 end
